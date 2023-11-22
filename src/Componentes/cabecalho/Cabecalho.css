@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    background-color: black;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.cabecalho h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.cabecalho div{
+    display: flex;
+    align-items: center;
+}
+
+.lista a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.active{
+    color: brown;
+}
+
+@media screen and (max-width:560px){
+    .cabecalho li{
+        font-size: 13px;
+    }
+}
+
+.cabecalho a:hover{
+    color: brown;
+}
